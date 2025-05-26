@@ -1,0 +1,177 @@
+
+* { 
+    font-weight: 100;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    border: 0;
+}
+
+#logo {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+#logo:hover {
+    background-color: lab(56.24% -0.13 -1.87 / 0.415);
+    cursor: pointer;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 0.7;
+    margin: 15px 15px 0 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav div {
+    margin: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav div:hover {
+    text-decoration: underline;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+#g_1, #g_4 {
+    color: blue;
+}
+
+#g_3 {
+    color: yellow;
+}
+
+#g_5 {
+    color: green;
+}
+
+#g_2, #g_6 {
+    color: red;
+}
+
+p span {
+    font-size: 80px;
+}
+
+#inp {
+    border-radius: 30px;
+    width: 40%;
+    height: 50px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+
+.hvr:hover {
+    cursor: pointer;
+}
+
+#inp div {
+    margin: 0 15px 0 15px;
+}
+
+#r_inp:focus {
+    outline: none;
+}
+
+#langs span {
+    color: #1a0dab
+;
+    margin: 0 3px 0 3px;
+}
+
+#langs span:hover {
+    cursor: pointer;
+}
+
+
+
+#under_search {
+    width: 20%;
+    margin: 2% 5% 3% 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#under_search div {
+    background-color: #f8f9fa;
+    font-weight: lighter;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#under_search div:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+#footer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#footer_1 {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+}
+
+#footer_2 {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+}
+
+#f_1{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#f_2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 5px 0 5px;
+}
+
+#f_1 div {
+    margin: 0 10px 0 10px;
+}
+
+#f_2 div {
+    margin: 0 10px 0 10px;
+}
+
+#f_1 div:hover, #f_2 div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
